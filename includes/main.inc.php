@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
         echo "Starting date cannot be later than ending date!<br>";
     }
 
-    if ($_POST['from'] < date("Y-m-d\TH:i" && $_POST['from'] !== "")) {
+    if ($_POST['from'] < date("Y-m-d\TH:i") && $_POST['from'] !== "") {
         $error = true;
         echo "You cannot choose the time in the past!<br>";
     }
