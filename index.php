@@ -7,7 +7,7 @@
     <?php
         require_once 'vendor/autoload.php';
         require_once 'includes/isset.inc.php';
-        require_once 'includes/timezone.php';
+        require_once 'includes/timezone.inc.php';
     ?>
 
     <form method="post">
